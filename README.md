@@ -82,7 +82,14 @@ The UI includes:
 - pip install -r requirements.txt
 
 ## Running the application
-- The project can be started using a single command: ./run.sh
+Inside the Root Directory
+- On Linux/macOS run : bash run.sh
+  
+- On windows powershell run:
+  venv\Scripts\activate
+  cd apps
+  streamlit run ui.py
+  
 - This launches a Streamlit application
 
 ---
